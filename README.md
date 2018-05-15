@@ -1,5 +1,5 @@
 # Node.js & MySQL
-> ### Example of MySQL + Nodejs codebase containing real world examples (CRUD through User Input) that simluates an online store. 
+> ### Example of MySQL + Nodejs codebase containing real world examples (CRUD through User Input) that simulates an online store. 
 
 This repo is functionality in-complete — PRs and issues welcome it's 90% done!!
 
