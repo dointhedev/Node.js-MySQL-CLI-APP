@@ -1,0 +1,28 @@
+{
+  "name": "node-mysql-express-cli",
+  "version": "1.0.0",
+  "description": "node application using node and mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dointhedev/Node.js-MySQL-CLI-APP.git"
+  },
+  "keywords": [
+    "mysql",
+    "node"
+  ],
+  "author": "Avi Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dointhedev/Node.js-MySQL-CLI-APP/issues"
+  },
+  "homepage": "https://github.com/dointhedev/Node.js-MySQL-CLI-APP#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "inquirer": "^5.2.0",
+    "mysql": "^2.15.0"
+  }
+}
