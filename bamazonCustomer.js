@@ -92,6 +92,7 @@ function dizAllProd() {
                         var cuSt = qty;
                         var total = oDr.price * qty;
                         var nwQty = adminSt - qty;
+                        var nTotal = total + oDr.product_sales;
                         if (nwQty >= 0) {
                             order.push(
                                 [oDr.id, oDr.department_name, oDr.product_name, oDr.price, cuSt, total]
@@ -106,9 +107,11 @@ function dizAllProd() {
                             }).then(function (b) {
                                 console.log(b.confirm);
                                 if (b.confirm) {
+                               
                                     connection.query(
                                         "UPDATE products SET ? WHERE ?", [{
-                                                stock_quantity: nwQty
+                                                stock_quantity: nwQty,
+                                                product_sales: nTotal,
                                             },
                                             {
                                                 id: id
