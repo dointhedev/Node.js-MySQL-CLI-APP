@@ -1,4 +1,4 @@
-# Node.js & MySQL
+# Node.js-MySQL-CLI-APP
 > ### Example of MySQL + Nodejs codebase containing real world examples (CRUD through User Input) that simulates an online store. 
 
 This repo is functionality in-complete — PRs and issues welcome it's 90% done!!
